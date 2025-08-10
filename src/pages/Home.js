@@ -42,7 +42,7 @@ const Home = () => {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
             Welcome to{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-              HealthAI Hub
+              Med Guardian
             </span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
@@ -114,7 +114,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Choose HealthAI Hub?
+              Why Choose Med Guardian?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               We combine cutting-edge AI technology with medical expertise to provide 

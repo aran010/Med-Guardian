@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
               <Heart className="h-8 w-8 text-health-500" />
-              <span className="ml-2 text-2xl font-bold">AI Healthcare Hub</span>
+              <span className="ml-2 text-2xl font-bold">Med Guardian</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Your comprehensive AI-powered healthcare solution. Get instant health insights, 
@@ -67,7 +67,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 AI Healthcare Hub. All rights reserved. This is not a substitute for professional medical advice.
+            © 2024 Med Guardian. All rights reserved. This is not a substitute for professional medical advice.
           </p>
         </div>
       </div>
