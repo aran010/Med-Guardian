@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Healthcare Symptom Checker</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Healthcare Symptom Checker</h1>
+      <form id="symptom-form">
+        <div class="grid">
+          <label>
+            Age (years)
+            <input type="number" id="age" min="0" max="120" step="0.1" />
+          </label>
+          <label>
+            Sex
+            <select id="sex">
+              <option value="unknown">Unknown</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+          <label>
+            Severity
+            <select id="severity">
+              <option value="">Select...</option>
+              <option value="mild">Mild</option>
+              <option value="moderate">Moderate</option>
+              <option value="severe">Severe</option>
+            </select>
+          </label>
+          <label>
+            Pregnant
+            <select id="pregnant">
+              <option value="">Unknown/Not applicable</option>
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select>
+          </label>
+        </div>
+
+        <label>
+          Symptoms (comma separated)
+          <input type="text" id="symptoms" placeholder="e.g., fever, cough, sore throat" />
+        </label>
+
+        <label>
+          Medical history (comma separated)
+          <input type="text" id="medical_history" placeholder="e.g., asthma, diabetes" />
+        </label>
+
+        <label>
+          Medications (comma separated)
+          <input type="text" id="medications" placeholder="e.g., ibuprofen, metformin" />
+        </label>
+
+        <label>
+          Additional context
+          <textarea id="additional_context" rows="4" placeholder="Add details like duration, exposures, travel, etc."></textarea>
+        </label>
+
+        <button type="submit">Analyze</button>
+      </form>
+
+      <div id="result" class="hidden"></div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
