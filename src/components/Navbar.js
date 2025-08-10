@@ -25,7 +25,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-2">
             <Stethoscope className="h-8 w-8" />
             <Link to="/" className="text-xl font-bold">
-              HealthAI Hub
+              Med Guardian
             </Link>
           </div>
 
